@@ -46,8 +46,9 @@ a:hover {
   display:flex;
   align-items:center;
   width:100%;
-  background-color:red;
-
+  background-image: url("https://github.com/jwashi01/Portfolio/blob/master/resources/images/Joshuaimage.png?raw=true");
+  background-size:cover;
+  height:45rem;
 }
 
 /*
