@@ -1,0 +1,70 @@
+html{
+  font-size:16px;
+  font-family: "Helvetica", sans-serif;
+}
+
+/* Header Section */
+
+.header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height:4rem;
+  padding-left:1.8rem;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4A4A4A;
+  padding-left: 0.1rem;
+}
+
+.Washington {
+    color: darkgray;
+    font-size: 2rem;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+    padding-left: 0.1rem;
+}
+
+a {
+  text-decoration:none;
+  color: #4A4A4A;
+  font-size:1rem;
+  padding-right:1.8rem;
+
+}
+
+a:hover {
+  color:red;
+}
+
+/* About Section */
+
+.AboutSection {
+  display:flex;
+  align-items:center;
+  width:100%;
+  background-color:red;
+
+}
+
+/*
+.Joshua {
+  width:60%;
+  padding-left:2rem;
+  padding-bottom:2rem;
+  padding-top:2rem;
+}
+
+.joshuaimage{
+ width:100%;
+}
+
+.Aboutcontent{
+  width:40%;
+  margin-left:0rem;
+  padding-top:4rem;
+  text-align:center;
+} */
