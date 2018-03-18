@@ -16,7 +16,7 @@ header {
 
 .header{
   display:flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
   height:4rem;
   padding-left:1.8rem;
@@ -43,6 +43,10 @@ header {
   padding-bottom:1rem;
 }
 
+.mobilenavigation {
+  display:none;
+}
+
 .Washington {
     color: darkgray;
     font-size: 2rem;
@@ -56,9 +60,10 @@ a {
   color: #4A4A4A;
   font-size:1rem;
   padding-right:1.8rem;
-
-
 }
+
+
+
 
 a:hover {
   color:red;
@@ -84,9 +89,15 @@ main {
 
 .Aboutcontent{
   width:100%;
+  height:28rem;
   margin-left:0rem;
   padding-top:2rem;
   text-align:center;
+  opacity:0.5;
+}
+
+.Aboutcontentmobile {
+  display:none;
 }
 
 .WebDeveloper{
@@ -94,13 +105,13 @@ main {
   font-size:4rem;
   font-style:cursive;
   font-weight:bold;
-  color:orange;
+  color:white;
 }
 
 .Artist {
   padding-left:40rem;
   font-size:4rem;
-  color:red;
+  color:white;
   letter-spacing:0.3rem;
   margin-bottom:0rem;
   line-height:0.5;
@@ -109,7 +120,7 @@ main {
 }
 
 .Recruiter{
-  color:purple;
+  color:red;
   font-size:4rem;
   font-weight:bold;
   padding-right:10rem;
@@ -155,7 +166,7 @@ main {
 } */
 
 .excursionimagesection:hover {
-  background-color:red;
+
 }
 
 .Excursionimage{
@@ -165,7 +176,6 @@ main {
 }
 
 .MyTimesSection:hover {
-  background-color:red;
   width:100%;
 }
 
@@ -180,7 +190,7 @@ main {
 }
 
 .ColmarAcademySection:hover{
-  background-color:red;
+
 }
 
 .ColmarAcademyimage{
@@ -190,7 +200,7 @@ main {
 }
 
 .FotomatSection:hover{
-  background-color:red;
+
 }
 
 .Fotomatimage{
@@ -200,7 +210,7 @@ main {
 }
 
 .TortoiseshellOpticsSection:hover{
-  background-color:red;
+
 }
 
 .Opticsimage{
@@ -210,7 +220,7 @@ main {
 }
 
 .TeaCozySection:hover{
-  background-color:red;
+
 }
 
 .TeaCozyimage{
@@ -220,7 +230,7 @@ main {
 }
 
 .SecretAgentSupplySection:hover{
-  background-color:red;
+
 }
 
 .SecretAgentSupplyimage{
@@ -262,6 +272,198 @@ footer {
   font-weight:bold;
 }
 
-.Githublink{
+@media only screen and (max-width:1060px) {
+  .WebDeveloper {
+    padding-right:28rem;
+    padding-top:2rem;
+    font-size:3rem;
+  }
+
+  .Artist {
+    padding-left:23rem;
+    font-size:3.5rem;
+  }
+
+  /*Portfolio Section */
+
+  .Excursionimage{
+    width:93%;
+  }
+
+  .ColmarAcademyimage {
+    width:93%;
+  }
+
+  .Fotomatimage {
+      width:93%;
+  }
+
+  .MyTimesimage {
+    width:93%;
+  }
+
+  .Opticsimage {
+    width:93%;
+  }
+
+  .TeaCozyimage {
+    width: 93%;
+  }
+
+  .SecretAgentSupplyimage {
+    width:93%;
+  }
+
+}
+
+@media only screen and (max-width:768px){
+
+ /*Header Section */
+
+header {
+  padding-left:0rem;
+}
+
+ .navigation{
+   display:none;
+ }
+
+ .logosection{
+   display:none;
+ }
+
+ .mobilenavigation{
+   width:100%;
+   display:inline;
+   display:flex;
+   align-items:center;
+   justify-content: space-around;
+ }
+
+.logoimagemobile{
+  font-family:"Times New Roman", serif;
+  font-size:2rem;
+}
+
+.Artmobile {
+  display:none;
+}
+
+.logoimagemobile {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+
+ .Art {
+   display:none;
+ }
+
+.navigation {
+  margin-right:1rem;
+}
+
+ a {
+   text-decoration:none;
+   color: #4A4A4A;
+   font-size:0.88rem;
+   padding-right:0.33rem;
+ }
+
+/*About Section */
+  .AboutSection {
+    width:100%;
+    background-image: url("https://github.com/jwashi01/Portfolio/blob/master/resources/images/Joshuaimage.png?raw=true");
+    background-size:cover;
+    background-position:center;
+    height:20rem;
+  }
+
+  .Aboutcontent{
+    display:none;
+  }
+
+
+   .MyTimesSection{
+     display:none;
+   }
+
+   .TeaCozySection {
+     display:none;
+   }
+
+ /* Portfolio Section */
+
+ .excursionimagesection{
+   padding-right:2rem;
+ }
+
+.ColmarAcademySection{
+  padding-right:2rem;
+}
+
+.FotomatSection{
+  padding-right:2rem;
+}
+
+.TortoiseshellOpticsSection{
+  padding-right:2rem;
+}
+
+.SecretAgentSupplySection{
+  padding-right:2rem;
+}
+
+@media only screen and (max-width:480px){
+
+/* Header Section */
+
+.header {
+    padding-left: 0rem;
+}
+
+.logoimagemobile {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+/* About Section */
+
+.AboutSection {
+    height: 15rem;
+}
+
+.aboutheader {
+    font-size: 2rem;
+}
+
+.aboutjosh {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+
+ /* Portfolio Section */
+ .Portfolio {
+     font-size: 2rem;
+ }
+
+   .excursionimagesection{
+     display:none;
+   }
+
+/* Footer Section */
+
+.footer {
+  display:flex;
+  flex-direction:column;
+}
+
+
 
 }
